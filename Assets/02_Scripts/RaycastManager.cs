@@ -43,7 +43,7 @@ public class RaycastManager : MonoBehaviour
         }
     }
 
-    async void CreateAnchor(ARRaycastHit hit)
+    void CreateAnchor(ARRaycastHit hit)
     {
         ARAnchor anchor = null;
         
